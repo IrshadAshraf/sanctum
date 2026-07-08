@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { brand, goldButton } from "@/lib/styles";
 
 const navItems = [
-  ["Classes", "/#find-class"],
+  ["Classes", "/#how-it-works"],
   ["Locations", "/#find-class"],
   ["Membership", "/#memberships"],
   ["Digital", "/#sanctum-digital"],

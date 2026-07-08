@@ -95,7 +95,7 @@ function Hero() {
 
         <motion.h1
           variants={fadeUp}
-          className="my-7 max-w-[520px] text-[clamp(3rem,6vw,5.5rem)] font-extrabold uppercase leading-[1.04] tracking-normal text-white max-sm:text-[clamp(2.8rem,16vw,4.3rem)]"
+          className="my-7 max-w-[520px] text-[clamp(3rem,6vw,5.5rem)]  font-extrabold uppercase leading-[1.04] tracking-normal text-white max-sm:text-5xl"
         >
           Move.
           <br />
@@ -112,11 +112,11 @@ function Hero() {
           training, internationally recognized faculty, and immersive programs.
         </motion.p>
 
-        <motion.div variants={fadeUp} className="mt-8 flex flex-wrap gap-4">
+        <motion.div variants={fadeUp} className="mt-8 flex gap-4">
           <button
             type="button"
             onClick={() => setIsDonateOpen(true)}
-            className={goldButton}
+            className={`${goldButton}`}
           >
             <HeartHandshake size={16} />
             Donate Now
